@@ -52,7 +52,7 @@ function addContact(contact) {
     return axios.post('https://api.brevo.com/v3/contacts', contact, {
         headers: {
             'Content-Type': 'application/json',
-            'api-key': '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' // replace with actual key
+            'api-key': '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' 
         }
     })
 }
